@@ -1,0 +1,6 @@
+mailer.sender:
+  title: 'Mailer'
+  route_name: mailer.sender
+  description: 'Отправка сообщений в WhatsApp'
+  parent: system.admin_structure
+  weight: 100000

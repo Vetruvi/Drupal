@@ -1,0 +1,2750 @@
+{
+  "$schema": "https://gist.githubusercontent.com/RhaalebosSwis/9bdb18f4a8d9806c3bc20130cb01f3c8/raw/b8527c3e33b11d01a3c1df8ba57b2d1ac3c0601e/RenderArraySchema.json",
+  "keys": [
+    {
+      "key": "#type",
+      "valueType": "string"
+    },
+    {
+      "key": "#title",
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "text_format",
+            "textarea",
+            "textfield",
+            "weight",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#default_value",
+      "valueType": "mixed",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "machine_name",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "weight",
+            "hidden",
+            "token"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#attributes",
+      "valueType": "array",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "actions",
+            "button",
+            "container",
+            "image_button",
+            "submit",
+            "form"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#description",
+      "valueType": "string|array",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "text_format",
+            "textarea",
+            "textfield",
+            "weight",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#value",
+      "valueType": "mixed",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "button",
+            "image_button",
+            "submit",
+            "hidden",
+            "token",
+            "value"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#options",
+      "valueType": "array",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkboxes",
+            "radios",
+            "select",
+            "tableselect"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#markup",
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "markup",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#theme",
+      "valueType": "string|string[]",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "actions",
+            "button",
+            "container",
+            "image_button",
+            "submit",
+            "form",
+            "hidden",
+            "token",
+            "markup",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#attached",
+      "valueType": "array",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#weight",
+      "valueType": "int|float",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "actions",
+            "button",
+            "container",
+            "image_button",
+            "submit",
+            "form",
+            "hidden",
+            "token",
+            "markup",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#access",
+      "valueType": "bool",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "actions",
+            "button",
+            "container",
+            "image_button",
+            "submit",
+            "form",
+            "hidden",
+            "token",
+            "markup",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#states",
+      "valueType": "array",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#required",
+      "valueType": "bool",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "file",
+            "machine_name",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "text_format",
+            "textarea",
+            "textfield",
+            "weight"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#prefix",
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "actions",
+            "button",
+            "container",
+            "image_button",
+            "submit",
+            "form",
+            "hidden",
+            "token",
+            "markup",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#cache",
+      "valueType": "array"
+    },
+    {
+      "key": "#suffix",
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "actions",
+            "button",
+            "container",
+            "image_button",
+            "submit",
+            "form",
+            "hidden",
+            "token",
+            "markup",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#parents",
+      "valueType": "array",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "actions",
+            "button",
+            "container",
+            "image_button",
+            "submit",
+            "form",
+            "hidden",
+            "token",
+            "markup",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#size",
+      "valueType": "int",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "file",
+            "machine_name",
+            "password",
+            "password_confirm",
+            "select",
+            "textfield"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#maxlength",
+      "valueType": "int",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "machine_name",
+            "password",
+            "textfield"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#url",
+      "valueType": "string|\\Drupal\\Core\\Url"
+    },
+    {
+      "key": "#id",
+      "valueType": "string"
+    },
+    {
+      "key": "#title_display",
+      "values": [
+        "before",
+        "after",
+        "invisible",
+        "attribute"
+      ],
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "text_format",
+            "textarea",
+            "textfield",
+            "weight",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#submit",
+      "valueType": "callable[]",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "button",
+            "image_button",
+            "submit",
+            "form"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#tree",
+      "valueType": "bool",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "actions",
+            "button",
+            "container",
+            "image_button",
+            "submit",
+            "form",
+            "hidden",
+            "token",
+            "markup",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#items",
+      "valueType": "array"
+    },
+    {
+      "key": "#rows",
+      "valueType": "array",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "text_format",
+            "textarea"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#theme_wrappers",
+      "valueType": "array",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "actions",
+            "button",
+            "container",
+            "image_button",
+            "submit",
+            "form",
+            "hidden",
+            "token",
+            "markup",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#ajax",
+      "valueType": "array",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "machine_name",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "button",
+            "image_button",
+            "submit"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#pre_render",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "actions",
+            "button",
+            "container",
+            "image_button",
+            "submit",
+            "form",
+            "hidden",
+            "token",
+            "markup",
+            "item"
+          ]
+        }
+      ],
+      "valueType": "callable[]"
+    },
+    {
+      "key": "#header",
+      "valueType": "array",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "tableselect"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#open",
+      "valueType": "bool"
+    },
+    {
+      "key": "#links",
+      "valueType": "array|\\Drupal\\Core\\Link[]"
+    },
+    {
+      "key": "#disabled",
+      "valueType": "bool",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "text_format",
+            "textarea",
+            "textfield",
+            "weight",
+            "button",
+            "image_button",
+            "submit"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#group",
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "fieldset"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#name",
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "button",
+            "submit"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#process",
+      "valueType": "callable[]",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "actions",
+            "button",
+            "container",
+            "image_button",
+            "submit",
+            "form",
+            "hidden",
+            "token",
+            "markup",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#context",
+      "valueType": "array"
+    },
+    {
+      "key": "#limit_validation_errors",
+      "valueType": "array",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "button",
+            "image_button",
+            "submit"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#wrapper_attributes",
+      "valueType": "array"
+    },
+    {
+      "key": "#multiple",
+      "valueType": "bool",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "select",
+            "tableselect"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#min",
+      "valueType": "int"
+    },
+    {
+      "key": "#empty",
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "tableselect"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#element_validate",
+      "valueType": "array",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "button",
+            "image_button",
+            "submit",
+            "hidden",
+            "token",
+            "markup",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#machine_name",
+      "valueType": "array"
+    },
+    {
+      "key": "#button_type",
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "button",
+            "image_button",
+            "submit"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#template",
+      "valueType": "string"
+    },
+    {
+      "key": "#plain_text",
+      "valueType": "string"
+    },
+    {
+      "key": "#input",
+      "valueType": "bool"
+    },
+    {
+      "key": "#field_name",
+      "valueType": "string"
+    },
+    {
+      "key": "#fieldset",
+      "valueType": "string"
+    },
+    {
+      "key": "#array_parents",
+      "valueType": "array",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#lazy_builder",
+      "valueType": "callable[]"
+    },
+    {
+      "key": "#children",
+      "valueType": "string"
+    },
+    {
+      "key": "#tag",
+      "valueType": "string"
+    },
+    {
+      "key": "#field_suffix",
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "machine_name",
+            "password",
+            "password_confirm",
+            "radio",
+            "select",
+            "textarea",
+            "textfield"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#contextual_links",
+      "valueType": "array"
+    },
+    {
+      "key": "#uri",
+      "valueType": "string"
+    },
+    {
+      "key": "#validate",
+      "valueType": "callable[]",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "button",
+            "image_button",
+            "submit",
+            "form"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#tabledrag",
+      "valueType": "array"
+    },
+    {
+      "key": "#return_value",
+      "valueType": "mixed",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "radio",
+            "image_button"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#view",
+      "valueType": "\\Drupal\\views\\ViewExecutable|null"
+    },
+    {
+      "key": "#upload_validators",
+      "valueType": "array"
+    },
+    {
+      "key": "#action",
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "form"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#printed",
+      "valueType": "bool"
+    },
+    {
+      "key": "#groups",
+      "valueType": "array"
+    },
+    {
+      "key": "#field_prefix",
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "machine_name",
+            "password",
+            "password_confirm",
+            "radio",
+            "select",
+            "textarea",
+            "textfield"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#empty_value",
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "select"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#format",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#cardinality",
+      "valueType": "int"
+    },
+    {
+      "key": "#build_id",
+      "valueType": "string"
+    },
+    {
+      "key": "#empty_option",
+      "valueType": "string",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "select"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#delta",
+      "valueType": "int|float",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "weight"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#link",
+      "valueType": "array"
+    },
+    {
+      "key": "#item",
+      "valueType": "mixed|bool"
+    }
+  ],
+  "_TODO": [
+    {
+      "_TODO": "BELOW IS NOT SUPPORTED",
+      "key": "#view_mode",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#target_type",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#placeholder",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#allowed_tags",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#account",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#finished",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#entity_type",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#autocomplete_route_name",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#section",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#max",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#create_placeholder",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#alt",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#files",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#date_date_format",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#text",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#sorted",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#errors",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#date_timezone",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#children_errors",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#cache_properties",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#abort",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#token",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#tags",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#step",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#label",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#date_time_element",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#content",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#required_by",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#date_date_element",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#upload_location",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#selection_settings",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#row",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#plugin_id",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#languages",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#error_no_message",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#entity_builders",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#date_part_order",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#date_increment",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#autocreate",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#after_build",
+      "valueType": "mixed",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "actions",
+            "button",
+            "container",
+            "image_button",
+            "submit",
+            "form",
+            "hidden",
+            "token",
+            "markup",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#requirements",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#heading",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#field_parents",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#display_id",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#date_time_format",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#data",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#build_id_old",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#block",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#progress_indicator",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#optional",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#height",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#entity_information",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#display_field",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#date_date_callbacks",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#width",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#value_callback",
+      "valueType": "mixed",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#sort_options",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#requires",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#pattern",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#media_help",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#level",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#js_select",
+      "valueType": "mixed",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "tableselect"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#fields",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#defaults_loaded",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#section_storage",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#response",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#node",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#list_type",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#langcode",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#label_display",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#embed",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#dropbutton_type",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#date_year_range",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#cache_redirect",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#allowed_formats",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#views_ui_ajax_data",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#term",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#style_name",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#sort_start",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#selection_handler",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#post_render",
+      "valueType": "mixed",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "checkbox",
+            "checkboxes",
+            "date",
+            "fieldset",
+            "file",
+            "machine_name",
+            "managed_file",
+            "password",
+            "password_confirm",
+            "radio",
+            "radios",
+            "select",
+            "tableselect",
+            "text_format",
+            "textarea",
+            "textfield",
+            "vertical_tabs",
+            "weight",
+            "actions",
+            "button",
+            "container",
+            "image_button",
+            "submit",
+            "form",
+            "hidden",
+            "token",
+            "markup",
+            "item"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#overridden",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#op",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#multilingual",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#method",
+      "valueType": "mixed",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "form"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#metadata",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#language_types",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#is_button",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#file",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#entity",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#element",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#date_time_callbacks",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#convert_path",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#comment_threaded",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#bundle",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#base_type",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#arguments",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#version",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#validate_reference",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#summary_attributes",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#sticky",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#show_messages",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#route_name",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#render_children",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#regions",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#redirect",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#process_default_value",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#pre_rendered",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#plugin_form",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#module_package_listing",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#js_settings",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#include_fallback",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#has_garbage_value",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#field_type",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#extended",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#editor",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#cardinality_multiple",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#base_plugin_id",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#argument_option",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#active",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#accordion",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#view_id",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#view_display_show_admin_links",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#view_display_plugin_id",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#values",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#validated",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#target_bundles",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#tableselect",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#show_operations",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#responsive",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#resizable",
+      "valueType": "mixed",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "text_format",
+            "textarea"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#required_error",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#region",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#quantity",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#preview_image_style",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#parameters",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#noscript",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#needs_validation",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#media",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#lock",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#layout_builder_element_keys",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#layout",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#language_negotiation_info",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#language",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#label_for",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#key_column",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#form_id",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#for",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#flatten",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#filter_types_to_skip",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#file_upload_delta",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#extra",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#executes_submit_callback",
+      "valueType": "mixed",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "button",
+            "image_button",
+            "submit"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#disable_inline_form_errors",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#default_tab",
+      "valueType": "mixed",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "vertical_tabs"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#conjunction",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#configuration",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#comment_indent",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#cell_attributes",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#cache_token",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#browsers",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#block_content",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#autocomplete_route_parameters",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#ajax_processed",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#access_callback",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#accept",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#validation_reasons",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#topic",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#title_field_required",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#title_field",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#third_party_settings",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#subtrees",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#style",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#status_headings",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#src",
+      "valueType": "mixed",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "image_button"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#source_field_name",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#severity",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#settings_links",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#settings",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#row_type",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#route_parameters",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#result",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#region_callback",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#processed",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#not_found",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#message_list",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#last",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#language_types_info",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#item_attributes",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#info",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#image_style",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#group_renders",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#group_options",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#general_info",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#filter",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#file_upload_description",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#field_has_data",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#field_alias",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#extra_field_placeholder_field_name",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#do_not_wrap_in_details",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#display",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#description_field",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#description_display",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#derivative_plugin_id",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#default_image",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#defaulted",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#date_text_parts",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#confirm_description",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#comment_indent_final",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#class",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#checked",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#bar",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#amount",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#alt_field_required",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#alt_field",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#actions",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#vertical_tab_item",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#validate_path",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#user",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#translation_directory",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#total_count",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#toggle",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#tips",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#text_summary_trim_length",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#taxonomy_term",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#subtype",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#substitutions",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#single_wrapped",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#secondary",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#responsive_image_style_id",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#progress_message",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#priorities",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#primary",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#pager",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#object",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#more",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#module_name",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#message",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#menu_name",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#media_library_state",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#media_id",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#max_delta",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#link_options",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#label_attributes",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#labels",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#is_multiple",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#group_exists",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#group_details",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#global",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#forums",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#formatter",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#footer",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#first_tid",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#file_value_callbacks",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#file_upload_title",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#field_id",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#feed_icons",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#exposed",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#error",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#dropbutton",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#display_default",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#counters",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#content_type",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#content_translation_skip_alter",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#comment_type",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#comment_display_mode",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#comment",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#cols",
+      "valueType": "mixed",
+      "predicates": [
+        {
+          "type": "sibling_has_key-value",
+          "key": "#type",
+          "values": [
+            "text_format",
+            "textarea"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "#caption",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#bundle_label",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#bundles",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#book_title",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#allow_focus",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#allowed_values",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#after_build_done",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#accordion_item",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#views_contextual_links",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#url_title",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#topics",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#title_key",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#tid",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#theme_group_titles",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#theme_groups",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#status",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#sortby",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#set_active_class",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#results",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#resource",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#required_but_empty",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#remaining_slots",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#related",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#property_name",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#project",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#plugins",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#placeholder_token",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#percent",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#original_label",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#num_posts",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#no_convert",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#no_cache",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#nid",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#new_posts",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#messages",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#menu_items",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#media_list_link",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#media_list_help",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#media_add_help",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#mark_type",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#mapping",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#long",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#link_type",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#lazy_builder_built",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#is_weight",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#https",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#headers",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#grouping_level",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#grouping",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#grouped_requirements",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#forums_per_page",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#forum",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#first_new",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#field_translatable",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#field",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#effect",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#displays",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#depth",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#custom",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#contents",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#comment_mode",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#commands",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#classes",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#book_link",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#body",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#blocks",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#attachment_before",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#attachment_after",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#allowed_types_help",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#aggregator_item",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#aggregator_feed",
+      "valueType": "mixed"
+    },
+    {
+      "key": "#add_bundle_message",
+      "valueType": "mixed"
+    }
+  ]
+}

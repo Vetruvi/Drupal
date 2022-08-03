@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Contains Drupal\unserialize\unserialize.module.
+ */
+
+/**
+ * @defgroup unserialize Entity: Content Entity
+ * @ingroup unserialize
+ * @{
+ * @see Drupal\unserialize\Entity\Calls
+ * @see unserialize
+ * }
+ */

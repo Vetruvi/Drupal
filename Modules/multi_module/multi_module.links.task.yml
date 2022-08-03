@@ -1,0 +1,20 @@
+calls.settings_tab:
+  route_name: multi_module.calls_settings
+  title: Settings
+  base_route: multi_module.calls_settings
+
+calls.view:
+  route_name: entity.multi_module_calls.canonical
+  base_route: entity.multi_module_calls.canonical
+  title: View
+
+calls.page_edit:
+  route_name: entity.multi_module_calls.edit_form
+  base_route: entity.multi_module_calls.canonical
+  title: Edit
+
+calls.delete_confirm:
+  route_name:  entity.multi_module_calls.delete_form
+  base_route:  entity.multi_module_calls.canonical
+  title: Delete
+  weight: 10

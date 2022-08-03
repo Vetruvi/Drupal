@@ -1,0 +1,8 @@
+multi_module.calls_add:
+
+  route_name: multi_module.calls_add
+  title: 'Add entity'
+
+  appears_on:
+    - entity.multi_module_calls.collection
+    - entity.multi_module_calls.canonical

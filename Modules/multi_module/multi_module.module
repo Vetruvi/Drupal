@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Contains Drupal\multi_module\multi_module.module.
+ */
+
+/**
+ * @defgroup multi_module: Content Entity
+ * @ingroup multi_module
+ * @{
+ * @see Drupal\multi_module\Entity\Calls
+ * @see multi_module
+ * }
+ */

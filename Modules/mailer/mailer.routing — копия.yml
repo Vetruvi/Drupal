@@ -1,0 +1,15 @@
+mailer.sender:
+  path: '/admin/structure/mailer_send'
+  defaults:
+    _form: '\Drupal\mailer\Form\MailForm'
+    _title: 'Mail construct'
+  requirements:
+    _permission: 'access content'
+
+mailer.content:
+  path: '/admin/structure/mailer_content'
+  defaults:
+    _controller: '\Drupal\mailer\Controller\Send::content'
+    _title: 'Mail sender'
+  requirements:
+    _permission: 'access content'

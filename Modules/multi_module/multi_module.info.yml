@@ -1,0 +1,9 @@
+name: Multi-module
+description: Дает возможность использовать ряд определенных функций.
+package: Custom
+type: module
+core_version_requirement: ^9
+
+dependencies:
+  - drupal:options
+  - drupal:user

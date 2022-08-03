@@ -1,0 +1,9 @@
+name: Unserialize
+description: Show array files and add entity.
+package: Custom
+type: module
+core_version_requirement: ^9
+
+dependencies:
+  - drupal:options
+  - drupal:user

@@ -1,0 +1,8 @@
+unserialize.calls_add:
+
+  route_name: unserialize.calls_add
+  title: 'Add entity'
+
+  appears_on:
+    - entity.unserialize_calls.collection
+    - entity.unserialize_calls.canonical

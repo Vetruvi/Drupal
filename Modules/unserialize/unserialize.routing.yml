@@ -1,0 +1,63 @@
+entity.unserialize_calls.canonical:
+  path: '/unserialize_calls/{unserialize_calls}'
+  defaults:
+    _entity_view: 'unserialize_calls'
+    _title: 'Calls content'
+  requirements:
+    _entity_access: 'unserialize_calls.view'
+
+entity.unserialize_calls.collection:
+  path: 'unserialize_calls/list'
+  defaults:
+    _entity_list: 'unserialize_calls'
+    _title: 'Calls list'
+  requirements:
+    _permission: 'view calls entity'
+
+unserialize.calls_add:
+  path: '/unserialize_calls/add'
+  defaults:
+    _entity_form: unserialize_calls.default
+    _title: 'Add calls'
+  requirements:
+    _entity_create_access: 'unserialize_calls'
+
+entity.unserialize_calls.edit_form:
+  path: '/unserialize_calls/{unserialize_calls}/edit'
+  defaults:
+    _entity_form: unserialize_calls.default
+    _title: 'Edit calls'
+  requirements:
+    _entity_access: 'unserialize_calls.update'
+
+entity.unserialize_calls.delete_form:
+  path: '/calls/{unserialize_calls}/delete'
+  defaults:
+    _entity_form: unserialize_calls.delete
+    _title: 'Delete calls'
+  requirements:
+    _entity_access: 'unserialize_calls.delete'
+
+unserialize.calls_settings:
+  path: '/admin/structure/unserialize_calls_settings'
+  defaults:
+    _form: '\Drupal\unserialize\Form\CallsSettingsForm'
+    _title: 'Calls settings'
+  requirements:
+    _permission: 'administer calls entity'
+
+unserialize.route:
+  path: '/admin/structure/unserialize_calls_route'
+  defaults:
+    _form: '\Drupal\unserialize\Form\CallsUnserForm'
+    _title: 'Unserialize route'
+  requirements:
+    _permission: 'access content'
+
+unserialize.content:
+  path: '/unserialize/calls_arrays'
+  defaults:
+    _controller: '\Drupal\unserialize\Controller\CallsArray::content'
+    _title: 'Unserialize Arrays'
+  requirements:
+    _permission: 'access content'

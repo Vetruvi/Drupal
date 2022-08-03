@@ -1,0 +1,111 @@
+entity.multi_module_calls.canonical:
+  path: '/multi_module_calls/{multi_module_calls}'
+  defaults:
+    _entity_view: 'multi_module_calls'
+    _title: 'Calls content'
+  requirements:
+    _entity_access: 'multi_module_calls.view'
+
+entity.multi_module_calls.collection:
+  path: 'multi_module_calls/list'
+  defaults:
+    _entity_list: 'multi_module_calls'
+    _title: 'Calls list'
+  requirements:
+    _permission: 'view calls entity'
+
+multi_module.calls_add:
+  path: '/multi_module_calls/add'
+  defaults:
+    _entity_form: multi_module_calls.default
+    _title: 'Add calls'
+  requirements:
+    _entity_create_access: 'multi_module_calls'
+
+entity.multi_module_calls.edit_form:
+  path: '/multi_module_calls/{multi_module_calls}/edit'
+  defaults:
+    _entity_form: multi_module_calls.default
+    _title: 'Edit calls'
+  requirements:
+    _entity_access: 'multi_module_calls.update'
+
+entity.multi_module_calls.delete_form:
+  path: '/calls/{multi_module_calls}/delete'
+  defaults:
+    _entity_form: multi_module_calls.delete
+    _title: 'Delete calls'
+  requirements:
+    _entity_access: 'multi_module_calls.delete'
+
+multi_module.calls_settings:
+  path: '/admin/structure/multi_module_calls_settings'
+  defaults:
+    _form: '\Drupal\multi_module\Form\CallsSettingsForm'
+    _title: 'Calls settings'
+  requirements:
+    _permission: 'administer calls entity'
+
+multi_module.route:
+  path: '/admin/structure/multi_module_calls_route'
+  defaults:
+    _form: '\Drupal\multi_module\Form\CallsUnserForm'
+    _title: 'Unserialize route'
+  requirements:
+    _permission: 'access content'
+
+multi_module.content:
+  path: '/multi_module/calls_arrays'
+  defaults:
+    _controller: '\Drupal\multi_module\Controller\CallsArray::content'
+    _title: 'Unserialize Arrays'
+  requirements:
+    _permission: 'access content'
+
+multi_module.change:
+  path: '/multi_module/mod_change'
+  defaults:
+    _form: '\Drupal\multi_module\Form\ChangeModForm'
+    _title: 'Change function'
+  requirements:
+    _permission: 'access content'
+
+multi_module.sender:
+  path: '/admin/structure/multi_module_send'
+  defaults:
+    _form: '\Drupal\multi_module\Form\MailForm'
+    _title: 'Mail construct'
+  requirements:
+    _permission: 'access content'
+
+multi_module.mail_content:
+  path: '/admin/structure/multi_module_content'
+  defaults:
+    _controller: '\Drupal\multi_module\Controller\SendMail::content'
+    _title: 'Mail sender'
+  requirements:
+    _permission: 'access content'
+
+multi_module.OCR_form:
+  path: '/admin/structure/multi_module_form_ocr'
+  defaults:
+    _form: '\Drupal\multi_module\Form\OcrForm'
+    _title: 'Загрузите изображение'
+  requirements:
+    _permission: 'access content'
+
+multi_module.OCR_content:
+  path: '/admin/structure/multi_module_OCR_content'
+  defaults:
+    _controller: '\Drupal\multi_module\Controller\OCR::content'
+    _title: 'OCR'
+  requirements:
+    _permission: 'access content'
+
+multi_module.Csv:
+  path: '/admin/structure/multi_module_Csv'
+  defaults:
+    _controller: '\Drupal\multi_module\Controller\SendCsv::content'
+    _title: 'Csv Mail'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,20 @@
+calls.settings_tab:
+  route_name: unserialize.calls_settings
+  title: Settings
+  base_route: unserialize.calls_settings
+
+calls.view:
+  route_name: entity.unserialize_calls.canonical
+  base_route: entity.unserialize_calls.canonical
+  title: View
+
+calls.page_edit:
+  route_name: entity.unserialize_calls.edit_form
+  base_route: entity.unserialize_calls.canonical
+  title: Edit
+
+calls.delete_confirm:
+  route_name:  entity.unserialize_calls.delete_form
+  base_route:  entity.unserialize_calls.canonical
+  title: Delete
+  weight: 10

@@ -1,0 +1,11 @@
+<?php
+
+/**
+ * @file
+ * Contains Drupal\mailer\mailer.module.
+ */
+
+/**
+ * @defgroup mailer Entity: Content Entity
+ * @ingroup mailer
+ */

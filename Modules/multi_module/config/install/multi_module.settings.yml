@@ -1,0 +1,20 @@
+Unserialize:
+  Route: Путь к файлу
+  Id: Введите id
+
+Mail:
+  Mail_id: Введите mail id
+  Mail_bot_id: Введите id бота
+  attachment_url: Введите attachment url
+  attachment_type: Введите attachment_type
+  phone: Введите номер телефона
+  key_api: Введите ключ api
+  csv: Введите ссылку к csv файлу
+  txt: Введите ссылку к txt файлу
+  Text: Напишите текст сообщения
+
+OCR:
+  url: Напишите ссылку на изображение
+  language: Напишите какой язык текста у изображения
+  language2: Напишите на какой язык будет осуществлятся перевод  
+  name_file: имя файла выбранного

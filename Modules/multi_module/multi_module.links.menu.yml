@@ -1,0 +1,6 @@
+multi_module.change:
+  title: 'Multi-module'
+  route_name: multi_module.change
+  description: 'Использование рядя определенных функций'
+  parent: system.admin_structure
+  weight: 100000

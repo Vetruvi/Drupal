@@ -1,0 +1,6 @@
+unserialize.route:
+  title: 'Unserialize creator entity'
+  route_name: unserialize.route
+  description: 'Создание сущностей или просмотр десериализованных файлов'
+  parent: system.admin_structure
+  weight: 100000
