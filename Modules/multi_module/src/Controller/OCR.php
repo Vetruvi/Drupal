@@ -50,7 +50,7 @@ class OCR extends ControllerBase
     }
     $request = \Drupal::httpClient()->post('https://api.ocr.space/parse/image', [
       'body' => $post,
-      'headers' => array('apikey' => '3a3fcb148488957', 'Content-Type' => 'application/x-www-form-urlencoded')
+      'headers' => array('apikey' => '', 'Content-Type' => 'application/x-www-form-urlencoded')
     ]);
     $json = $request->getBody()->getContents();
     $piece1= '"ProcessingTimeInMilliseconds":"';
