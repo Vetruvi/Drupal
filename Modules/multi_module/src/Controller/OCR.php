@@ -67,7 +67,7 @@ class OCR extends ControllerBase
     ]);
     $request = \Drupal::httpClient()->post('https://google-translate1.p.rapidapi.com/language/translate/v2', [
       'body'=>$post,
-      'headers' => array('Content-type' => 'application/x-www-form-urlencoded', 'X-RapidAPI-Host' => 'google-translate1.p.rapidapi.com', 'X-RapidAPI-Key' => 'fb332403damsh93459003ace8ccbp14abc5jsnb286b43c91ae', 'Accept-Encoding' => 'application/gzip')
+      'headers' => array('Content-type' => 'application/x-www-form-urlencoded', 'X-RapidAPI-Host' => 'google-translate1.p.rapidapi.com', 'X-RapidAPI-Key' => '', 'Accept-Encoding' => 'application/gzip')
     ]);
      **/
     $json = $request->getBody()->getContents();
